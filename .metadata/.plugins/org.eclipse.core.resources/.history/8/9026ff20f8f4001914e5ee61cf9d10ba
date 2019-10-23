@@ -1,0 +1,31 @@
+package ui;
+
+import java.time.*;
+
+public class DateTimeApp {
+
+	public static void main(String[] args) {
+
+		LocalDate ld = LocalDate.now();
+		System.out.println(ld);
+		
+		LocalTime lt = LocalTime.now();
+		System.out.println(lt);
+		
+		LocalDateTime ldt = LocalDateTime.now();
+		System.out.println(ldt);
+		
+		LocalDate halloween2019 = LocalDate.of(2019,  10,  31);
+		System.out.println("Halloween 2019 = " + halloween2019);
+		
+		LocalDate Christmas2019 = LocalDate.of(2019,  12,  25);
+		System.out.println("Christmans 2019 = " + Christmas2019);
+		
+		LocalDateTime thanksgiving2019 = LocalDateTime.of(2019,11,28,0,0,0);
+		System.out.println("Thanksgiving 2019 = " + thanksgiving2019);
+		
+		LocalDateTime demoDay2019 = LocalDateTime.parse("2019-12-17T14:00:00");
+		System.out.println("Demo Day = " + demoDay2019);
+	}
+
+}

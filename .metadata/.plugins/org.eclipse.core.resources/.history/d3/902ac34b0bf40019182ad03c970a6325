@@ -1,0 +1,50 @@
+
+public class Student implements Comparable {
+
+	String lastName = "";
+	String firstName = "";
+	int score = 0;
+	
+	public Student() {
+		super();
+	}
+
+	public Student(String lastName, String firstName, int score) {
+		super();
+		this.lastName = lastName;
+		this.firstName = firstName;
+		this.score = score;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	@Override
+	public int compareTo(Object arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

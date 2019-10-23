@@ -1,0 +1,37 @@
+package ch13_class_demos;
+
+public class StringsApp {
+
+	public static void main(String[] args) {
+
+		String str1 = "Murach's Java Programming";
+		if (str1.startsWith("mur")) {
+			System.out.println("Not case sensitive");
+		} else {
+			System.out.println("Case sensitive");
+		}
+		
+		String name1 = "bob l smith";
+		
+		System.out.println("name1 = " + name1);
+		System.out.println("length = " + name1.length());
+		System.out.println(name1.indexOf("b") );
+		System.out.println(name1.indexOf("b", 1) );
+	
+		int idx1 = name1.indexOf(" ");
+		int idx2 = name1.indexOf(" ", idx1 + 1);
+		String fName = name1.substring(0, idx1);
+		String mi = name1.substring(idx1 + 1, idx2);
+		String lName = name1.substring(idx2 + 1);
+		System.out.println("fName = " + fName);
+		System.out.println("mi = " + mi);
+		System.out.println("lName = " + lName);
+		
+		
+	}
+	
+
+
+	
+
+}

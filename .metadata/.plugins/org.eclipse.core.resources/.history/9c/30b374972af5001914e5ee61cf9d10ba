@@ -1,0 +1,90 @@
+package ui;
+
+import java.util.ArrayList;
+
+import util.Console;
+
+public class PrsConsoleApp {
+
+	public static void main(String[] args) {
+
+		int menuOpt = 0;
+		System.out.println("Welcome to the PRS Console!");
+
+		ArrayList<User> users = new ArrayList<>();
+		items.add("wooden staff");
+		items.add("wizard hat");
+		items.add("cloth shoes");
+		
+		while (menuOpt != 6) {
+			displayMenu();
+			menuOpt = Console.getInt("\nCommand: ", 0, 7);
+			
+			switch (menuOpt) { // in case user enters caps
+			case 1:
+				listUsers();
+				break;
+
+			case 2:
+				if (items.size() == 4) {
+					System.out.println("You can't carry any more items. " + "Drop something first");
+				} else {
+					String s = Console.getString("Name: ");
+					items.add(s);
+					System.out.println(s + " was added.");
+				}
+				break;
+
+			case 3:
+				if (items.size() == 0) {
+					System.out.println("No items to edit");
+				} else {
+					itemNumber = Console.getInt("Number: ", 0, (items.size() + 1));
+					String updatedName = Console.getString("Updated name: ");
+					items.set(itemNumber - 1, updatedName);
+					System.out.println("Item number " + itemNumber + " was updated.");
+				}
+				break;
+
+			case 4:
+				if (items.size() == 0) {
+					System.out.println("No items to drop");
+				} else {
+					itemNumber = Console.getInt("Number: ", 0, (items.size() + 1));
+					String str1 = items.remove(itemNumber - 1);
+					System.out.println(str1 + " was dropped.");
+				}
+				break;
+				
+			case 5:
+				break;
+			
+			case 6;
+				break;
+				
+			default:
+				System.out.println("Invalid selection; try again ");
+				break;
+			}
+		}
+
+		System.out.println("Bye!");
+			
+		}
+		
+
+	}
+	
+	public static void displayMenu() {
+
+		System.out.println("\nCOMMAND MENU");
+		System.out.println("\n------------");
+		System.out.println("1 - List Users");
+		System.out.println("2 - Get a User");
+		System.out.println("3 - Add a User");
+		System.out.println("4 - Edit a User");
+		System.out.println("5 - Delete a User");
+		System.out.println("6 - Exit");
+	}
+
+}

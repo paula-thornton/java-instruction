@@ -1,0 +1,9 @@
+
+public interface AccountConstants {
+
+    double CHECKING_STARTING_BAL = 1000;
+    double SAVINGS_STARTING_BAL = 1000;
+	double INTEREST_RATE = 0.05;
+    double MONTHLY_FEE = 5.00;
+   
+}

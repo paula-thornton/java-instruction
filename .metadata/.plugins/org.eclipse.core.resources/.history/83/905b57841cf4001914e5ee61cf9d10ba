@@ -1,0 +1,21 @@
+package ui;
+
+public class CollectionsDemoApp {
+
+	public static void main(String[] args) {
+		String[] codes1 = new String[3];
+		
+		codes1[0] = "java";
+		codes1[1] = "jsp";	
+		codes1[2] = "mysql";	
+		
+		for (String s: codes1) {
+			System.out.println(s);
+		}
+		
+		
+				
+
+	}
+
+}

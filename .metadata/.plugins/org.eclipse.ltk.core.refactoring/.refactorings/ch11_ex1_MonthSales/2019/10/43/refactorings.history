@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Console.java&apos; to &apos;Proj_11_2_Student_Scores/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;ch11_ex1_MonthSales&apos;&#x0D;&#x0A;- Destination element: &apos;Proj_11_2_Student_Scores/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Console.java&apos;" description="Copy compilation unit" destination="=Proj_11_2_Student_Scores/src&lt;" element1="/src&lt;{Console.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1571658203192" units="1" version="1.0"/>
+</session>

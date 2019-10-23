@@ -1,0 +1,45 @@
+package business;
+public class SavingsAccount extends Account {
+
+	private double interestRate;
+	private double interestPayment;
+	
+	public SavingsAccount() {
+		super();
+	}
+	
+	public SavingsAccount(double balance, double interestRate, double.interestPayment) {
+		super(balance);
+		this.interestRate = interestRate;
+		this.interestPayment = interestPayment;
+	}
+	
+	public double getInterestRate() {
+		return interestRate;
+	}
+
+	public void setInterestRate(double interestRate) {
+		this.interestRate = interestRate;
+	}
+
+	public double getInterestPayment() {
+		double i = calcInterestPayment();
+		return i;
+	}
+
+	public void setInterestPayment(double interestPayment) {
+		this.interestPayment = interestPayment;
+	}
+
+	public double calcInterestPayment() {
+		interestPayment = interestRate * balance; 
+		return interestPayment;
+	}
+	
+	public double addInterestPayment() {
+		double d = balance + interestPayment;
+		return d;
+	}
+
+	
+}

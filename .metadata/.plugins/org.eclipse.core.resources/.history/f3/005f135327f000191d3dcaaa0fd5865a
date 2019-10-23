@@ -1,0 +1,48 @@
+import business.Account;
+
+public class SavingsAccount extends Account {
+
+	private double interestRate;
+	private double interestPayment;
+	
+	public SavingsAccount() {
+		super();
+		interestRate = 0;
+		interestPayment = 0;
+	}
+	
+	public SavingsAccount(double balance, double interestRate) {
+		super(balance);
+		this.interestRate = interestRate;
+		this.interestPayment = 0;
+	}
+	
+	public double getInterestRate() {
+		return interestRate;
+	}
+
+	public void setInterestRate(double interestRate) {
+		this.interestRate = interestRate;
+	}
+
+	public double getInterestPayment() {
+		double i = calcInterestPayment();
+		return i;
+	}
+
+	public void setInterestPayment(double interestPayment) {
+		this.interestPayment = interestPayment;
+	}
+
+	public double calcInterestPayment() {
+		interestPayment = interestRate * getBalance(); 
+		return interestPayment;
+	}
+	
+	public double getFinalBalance() {
+		double d = getBalance() + calcInterestPayment();
+		return d;
+	}
+
+	
+}
