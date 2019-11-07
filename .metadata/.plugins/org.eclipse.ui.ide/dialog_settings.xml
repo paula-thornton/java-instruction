@@ -109,8 +109,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\pt92159\Desktop\Murach\java\eclipse\ex_solutions"/>
 			<item value="C:\Users\pt92159\Desktop\Murach\java\eclipse\ex_starts"/>
+			<item value="C:\Users\pt92159\Desktop\Murach\java\eclipse\ex_solutions"/>
 			<item value="C:\Users\pt92159\Desktop\Murach\java\eclipse\book_apps\ch06_FutureValue"/>
 			<item value="C:\Users\pt92159\Desktop\Murach\java\eclipse\book_apps"/>
 		</list>
@@ -126,5 +126,13 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="468"/>
+		<item key="DIALOG_Y_ORIGIN" value="269"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 </section>

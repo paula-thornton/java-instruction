@@ -15,7 +15,7 @@ public class InstatnceCreatorApp {
 		p1.setCode("java");
 		p1.setDescription("Murachs Java");
 		p1.setPrice(57.50);
-		increasePrice(p1);
+	//	increasePrice(p1);
 		System.out.println(p1);
 		p1.setDescription("Murachs Java");
 		

@@ -1,0 +1,4 @@
+java	Murach's Java Promgramming	57.5
+mysql	Murach's MySql	67.5
+andr	Murach's Android Promgramming	47.5
+abcd	abcd guide to programming	22.5
