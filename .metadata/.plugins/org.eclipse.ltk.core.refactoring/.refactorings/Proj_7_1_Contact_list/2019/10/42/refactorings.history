@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;Console.java&apos; to &apos;Proj_8_2_People_Manager/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Proj_7_1_Contact_list&apos;&#x0D;&#x0A;- Destination element: &apos;Proj_8_2_People_Manager/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Console.java&apos;" description="Copy compilation unit" destination="=Proj_8_2_People_Manager/src&lt;" element1="/src&lt;{Console.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1571102200197" units="1" version="1.0"/>
-</session>
