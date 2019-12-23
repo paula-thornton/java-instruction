@@ -62,7 +62,7 @@ public class StuffyDB {
 			e.printStackTrace();
 		}
 		return s;
-	
+
 	}
 	
 	public int add(Stuffy s) {

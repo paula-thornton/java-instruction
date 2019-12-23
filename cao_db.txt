@@ -1,0 +1,131 @@
+
+item info screen - 
+	UPC - string
+	Description - string
+	Retail multiple - int
+	Retail - double
+	BOH - int
+	Min - int
+	Allocation - int
+	Pack - int
+	Status - char(12) (Active/Inactive/Discontinued)
+
+drop order detail
+order header
+	Order Number - int
+	Due date - drop due date
+	Delivery Date - localDateTime
+	Order Status - change to string and put 'OPEN', 'CLOS', 'RLSD', 'SENT' or 'RECV'
+
+rename order detail to orderHistory
+copy delivery date and order status from header to detail
+order detail
+	order number - int
+	UPC - string
+	Suggested - int
+	Actual - int
+	Received - int
+	Adj Reason - string
+
+sales history
+	Date - localdatetime
+	UPC - string
+	retail multiple - int
+	Retail - double
+	Units - int
+
+teccodes		- ditch this
+	0	Empty
+	1	Open
+	2	Closed
+	3	Released
+	4	Sent
+	5	Received
+
+	A	Active
+	I	Inactive
+	D	Discontinued
+
+order detail - ?
+
+Enter UPC:
+
+UPC    xxxxxxxxxxxxxxxx    
+Desc   xxxxxxxxxxxxxxxxxxxxxxxxx
+Status Active	    Retail $xx.xx	
+BOH    XXXXX	    Pack	XXXX
+Min    XXXXX	    Alloc  XXXXX
+
+	        MENU:
+	1 - Update Item
+	2 - View Sales History
+	3 - View Order History		  
+	4 - Enter new item
+
+Current Status:  A      Enter New Status:  --
+Current BOH   :  xxxx   Enter New BOH:
+
+Item updated.
+
+UPC    xxxxxxxxxxxxxxxx    
+Desc   xxxxxxxxxxxxxxxxxxxxxxxxx
+Status A	    Retail $xx.xx	
+BOH    XXXXX	    Pack	XXXX    ** Shows new values
+Min    XXXXX	    Whse	xxx
+Alloc  XXXXX
+
+	        MENU:
+	1 - Update Item
+	2 - View Sales History
+	3 - View Order History		  
+	4 - Enter new item
+
+                Sales History
+
+UPC:  xxxxxxxxxxxxx
+
+Date		Price	Units	Total Dollars
+2019-10-04    	$1.99	20	$39.80
+2019-10-05	$1.99	30	$xx.xx
+2019-10-06	$1.99	40	$xx.xx
+2019-10-07	$1.99	50	$xx.xx
+
+Press any key to return
+
+
+UPC    xxxxxxxxxxxxxxxx    
+Desc   xxxxxxxxxxxxxxxxxxxxxxxxx
+Status A	    Retail $xx.xx	
+BOH    XXXXX	    Pack	XXXX
+Min    XXXXX	    Whse	xxx
+Alloc  XXXXX
+
+	        MENU:
+	1 - Update Item
+	2 - View Sales History
+	3 - View Order History		  
+	4 - Enter new item
+
+                       Order History
+
+UPC:  xxxxxxxxxxxxx
+
+		Suggested   Acutal	Received   Adjustment
+Delivery Date   Qty	    Qty   	Qty	   Reason
+2019-10-04  	4	    4		0	   Temp OOS
+2019-10-05	5	    5		5
+2019-10-06	3	    3           0          Warehouse Scratch
+
+
+Press any key to return
+
+	        MENU:
+	1 - Update Item
+	2 - View Sales History
+	3 - View Order History		  
+	4 - Enter new item
+
+Enter UPC:
+
+
+

@@ -33,7 +33,6 @@
 <fullyQualifiedTypeName name="db.MovieDB"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="business.Actor"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.sql.SQLIntegrityConstraintViolationException"/>
 <fullyQualifiedTypeName name="business.Contact"/>
 <fullyQualifiedTypeName name="business.TestContact"/>
@@ -43,6 +42,13 @@
 <fullyQualifiedTypeName name="business.Pirate"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="util.Console"/>
 <fullyQualifiedTypeName name="business.JUnitTesting"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="business.Item"/>
+<fullyQualifiedTypeName name="db.ItemDB"/>
+<fullyQualifiedTypeName name="db.OrderHistoryDB"/>
+<fullyQualifiedTypeName name="db.SalesHistoryDB"/>
+<fullyQualifiedTypeName name="business.SalesHistory"/>
+<fullyQualifiedTypeName name="business.OrderHistory"/>
+<fullyQualifiedTypeName name="util.Console"/>
 </qualifiedTypeNameHistroy>
